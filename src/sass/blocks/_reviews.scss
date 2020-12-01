@@ -1,0 +1,48 @@
+.reviews {
+    margin-bottom: 17px;
+    h1 {
+        font-family: Museo;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    hr {
+        width: 940px;
+        height: 1px;
+        background-color: #f6f6f6;
+        border: 0;
+    }
+    &__review {
+        padding: 50px 0 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        img {
+            min-width: 169px;
+            min-height: 169px;
+        }        
+    }
+    &__text {
+        text-align: left;
+        margin-left: 62px;
+        padding-right: 30px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__sub-title {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {      
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+
+}
